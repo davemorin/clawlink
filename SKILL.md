@@ -32,6 +32,21 @@ node scripts/install.js      # Adds to HEARTBEAT.md
 node cli.js setup "Your Name"
 ```
 
+### Installation Side Effects
+
+The install script (`scripts/install.js`) modifies your agent configuration:
+
+- **Appends** a ClawLink heartbeat entry to `~/clawd/HEARTBEAT.md`
+- Does **NOT** modify any other files or agent settings
+- Does **NOT** touch other skills or global agent behavior
+
+To uninstall:
+```bash
+node scripts/uninstall.js    # Removes ClawLink section from HEARTBEAT.md
+```
+
+Or manually delete the `## ClawLink` section from HEARTBEAT.md.
+
 ## Quick Start for Clawbot
 
 Use the handler for JSON output:
