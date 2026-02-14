@@ -155,7 +155,7 @@ Recipients control how they receive messages:
 
 ## Data Location
 
-All ClawLink data stored at: `~/.config/clawbot/clawlink/`
+All ClawLink data stored at: `~/.clawdbot/clawlink/`
 
 - `identity.json` — Your Ed25519 keypair
 - `friends.json` — Friend list with shared secrets

@@ -54,7 +54,7 @@ function main() {
   console.log('');
   console.log('ClawLink heartbeat polling disabled.');
   console.log('');
-  console.log('Note: Your identity and friends are still in ~/.config/clawbot/clawlink/');
+  console.log('Note: Your identity and friends are still in ~/.clawdbot/clawlink/');
   console.log('      Delete that directory to fully remove ClawLink data.');
 }
 
