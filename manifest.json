@@ -1,6 +1,6 @@
 {
   "name": "clawlink",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Encrypted Clawbot-to-Clawbot messaging",
   "author": "Dave Morin",
   
@@ -55,7 +55,7 @@
   
   "security": {
     "credentials": "none",
-    "localSecrets": ["~/.clawdbot/clawlink/identity.json"],
+    "localSecrets": ["~/.openclaw/clawlink/identity.json"],
     "networkEndpoints": ["https://relay.clawlink.bot"],
     "dataExfiltration": "none",
     "privilegedOperations": ["heartbeat_modification"]
